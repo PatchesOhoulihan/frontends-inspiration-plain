@@ -1,9 +1,11 @@
 //main: style.less
 
 /*------------------------------------------------------------------------
-| Content
+| Mixins
 ------------------------------------------------------------------------*/
 
-.def{
-    background-color: #333
+.unlock(@value) { // outer mixin
+  .doSomething() { // nested mixin
+    declaration: @value;
+  }
 }
