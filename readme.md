@@ -1,6 +1,6 @@
 # Webdevelopment Scaffold
 
-OH WAIT!! You want how they look in action?! [Take a look here](hhttps://patchesohoulihan.github.io/frontends-inspiration-plain/)
+OH WAIT!! You want how they look in action?! [Take a look here](https://patchesohoulihan.github.io/frontends-inspiration-plain/)
 
 Setup I use for my plain Frontend Projects 
 
