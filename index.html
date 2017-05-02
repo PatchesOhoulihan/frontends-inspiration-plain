@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Good old Plain Frontend</title>
+    <link rel="stylesheet" type="text/css" href="./css/master.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
 </head>
 <body>
-    <p>It works</p>
-    <p>Checkout: <a href="projects/flatdesign/index.html">Flatdesign</a></p>
-    <p>It works</p>
-    <p>Checkout: <a href="projects/interactive/index.html">interactive</a></p>
-    <p>It works</p>
-    <p>Checkout: <a href="projects/interactive/index.html">interactive</a></p>
+    <div class="homepage-hero-module">
+        <div class="video-container">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth">
+                <source src="./assets/Sketch.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                <source src="./assets/Sketch.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+            <div class="poster hidden">
+                <!--    <img src="./assets/Sketch.jpg" alt="">-->
+            </div>
+            <div class="text-overlay">
+                <article>
+                    <img src="./assets/rsz_flat.png" alt="">
+                    <aside>
+                        
+                        <h3>Flatdesign</h3>
+                        <p>Google really liks this <a href="https://material.io/guidelines/material-design/introduction.html"> Material Design</a> So here is my take on this thing, <a href="projects/flatdesign/index.html">check it out</a></p>
+                    </aside>
+                </article>
+                <article>
+                    <img src="./assets/rsz_interactive.png" alt="">
+                    <aside>
+                        <h3>Interactive</h3>
+                        <p>Playing around with some CSS 3 features and HTML Video features, <a href="projects/interactive/index.html">give it a try</a></p>
+                    </aside>
+                </article>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

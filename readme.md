@@ -1,10 +1,12 @@
-# Frontend Adserver
+# Webdevelopment Scaffold
 
-Frontend for the Adserver I wrote use this Backend for it.
+OH WAIT!! You want how they look in action?! [Take a look here](hhttps://patchesohoulihan.github.io/frontends-inspiration-plain/)
+
+Setup I use for my plain Frontend Projects 
 
 ## Getting Started
 
-The Project uses the following Technologies:
+The Scaffold use the following Technologies:
 - Node
 - Gulp
 - Less
@@ -21,9 +23,9 @@ None
 Use: node install
 
 
-## Running the Project
+## Running the Scaffold
 
-### Run Project in Development Mode
+### Run Scaffold in Development Mode
 
 Simply use the command gulp on the commandline to invoke the development mode.
 Features: Automatically reloads the Browser after changes in the less, html or js Files.
@@ -63,4 +65,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Huge thanks to all the Coffeine
+
 
